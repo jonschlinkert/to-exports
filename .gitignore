@@ -1,0 +1,11 @@
+*.DS_Store
+*.sublime-*
+_gh_pages
+benchmark
+bower_components
+node_modules
+npm-debug.log
+temp
+tmp
+TODO.md
+vendor
