@@ -60,7 +60,7 @@ module.exports = require('export-files')(__dirname, /\.js$/);
 
 ## Related
 * [map-files](https://github.com/jonschlinkert/map-files): Return an object for a glob of files. Pass a `rename` function for the keys, or a `parse` function for the content, allowing it to be used for readable or require-able files.
-* [micromatch](https://github.com/jonschlinkert/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch (10-45x faster on avg). Just use `minimatch.isMatch()` instead of `multimatch()` or `minimatch()`.
+* [micromatch](https://github.com/jonschlinkert/micromatch): Glob matching for javascript/node.js. A drop-in replacement and faster alternative to minimatch and multimatch (10-45x faster on avg). Just use `micromatch.isMatch()` instead of `minimatch()` or `micromatch()` instead of `multimatch()`.
 * [file-reader](https://github.com/jonschlinkert/file-reader): Read a glob of files, dynamically choosing the reader or requiring the files based on the file extension.
 
 ## Run Tests
